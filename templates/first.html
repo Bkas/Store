@@ -1,0 +1,140 @@
+{% extends 'main.html' %}
+{% load static %}
+<!DOCTYPE html>
+{% block content %}
+<section>
+  <section id="home">
+    <div class="container-fluid">
+      <h5>NEW ARRIVALS</h5>
+      <H1><SPAN>Best Price</SPAN> This Year</H1>
+      <p>Use our scents to evoke positive memories.</p>
+      <a href="shop.html">
+      <button>Shop Now</button> </a>
+    </div>
+  </section>
+
+  <section id="brand" class="container">
+      <div class="row m-0 py-5">
+          <img class="img-fluid col-lg-2 col-md-4 col-6" src="{% static 'img/brand/1.png' %}" alt="">
+          <img class="img-fluid col-lg-2 col-md-4 col-6" src="{% static 'img/brand/2.png' %}" alt="">
+          <img class="img-fluid col-lg-2 col-md-4 col-6" src="{% static 'img/brand/3.png' %}" alt="">
+          <img class="img-fluid col-lg-2 col-md-4 col-6" src="{% static 'img/brand/4.png' %}" alt="">
+          <img class="img-fluid col-lg-2 col-md-4 col-6" src="{% static 'img/brand/5.png' %}" alt="">
+          <img class="img-fluid col-lg-2 col-md-4 col-6" src="{% static 'img/brand/6.png' %}" alt="">
+      </div>
+  </section>
+
+  <section id="new" class="w-100">
+    <div class="row p-0 m-0">
+      <div class="one col-lg-6 col-md-12 col-12 p-0">
+        <img class="image-fluid" src="{%static 'img/new/1.svg' %}" alt="image">
+        <div class="details">
+          <h2>Men's Fragrance</h2>
+          <a href="shop.html">
+          <button class="text-upperclass">Shop now</button></a>
+        </div>
+      </div>
+      <div class="one col-lg-6 col-md-12 col-12 p-0">
+        <img class="image-fluid" src="{%static 'img/new/2.svg' %}" alt="image">
+        <div class="details">
+          <h2>Women's Fragrance</h2>
+          <a href="shop.html">
+          <button class="text-upperclass">Shop now</button></a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="featured" class="my-5 pb-5" >
+    <div class="container text-center mt-5 py-5">
+      <h3>Our Featured</h3>
+      <hr>
+      <p>Here you can check our new Perfumes.</p>
+    </div>
+    <div class="row mx-auto container-fluid">
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src="{% static 'img/Featured/1.png'%}" alt="">
+      <h5 class="p-name">
+        Versace Dylan Blue Pour Homme 100 ml for Men</h5>
+      <h4 class="p-price">$92.00</h4>
+      <a href="singleProduct.html">
+      <button class="buy-btn">Buy Now</button></a>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+      <img class="img-fluid mb-3" src="{% static 'img/Featured/2.png'%}" alt="">
+      <h5 class="p-name">
+        Christiano Ronaldo Cr7 Eau De Perfume For Men</h5>
+    <h4 class="p-price">$182.00</h4>
+    <a href="singleProduct.html">
+      <button class="buy-btn">Buy Now</button></a>
+  </div>
+  <div class="product text-center col-lg-3 col-md-4 col-12">
+    <img class="img-fluid mb-3" src="{% static 'img/Featured/3.png'%}" alt="">
+    <h5 class="p-name">
+      Miss Dior Eau de Parfum</h5>
+  <h4 class="p-price">$120.00</h4>
+  <a href="singleProduct.html">
+    <button class="buy-btn">Buy Now</button></a>
+</div>
+<div class="product text-center col-lg-3 col-md-4 col-12">
+  <img class="img-fluid mb-3" src="{% static 'img/Featured/4.png'%}" alt="">
+  <h5 class="p-name">
+    Denver Men Eau De Parfum Hamilton 100ml</h5>
+<h4 class="p-price">$70.00</h4>
+<a href="singleProduct.html">
+  <button class="buy-btn">Buy Now</button></a>
+</div>
+  </section>
+
+  <section id="banner" class="my-5 py-5">
+    <div class="container">
+      <h4>MID SEASON'S SALE</h4>
+      <h1>Autumn Collection <br>Fresh Perfumes</h1>
+      <a href="shop.html">
+      <button class="text-upppercase">Shop Now</button></a>
+    </div>
+  </section>
+
+  <section id="clothes" class="my-5 pb-5" >
+    <div class="container text-center mt-5 py-5">
+      <h3>Top Picks for you</h3>
+      <hr>
+      <p>Here you can check our most selling Perfumes.</p>
+    </div>
+    <div class="row mx-auto container-fluid">
+      <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src="{% static 'img/toppicks/1.png' %}" alt="">
+      <h5 class="p-name">
+        Dior J'adore Eau de Parfum Infinissime</h5>
+      <h4 class="p-price">$195.00</h4>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="product text-center col-lg-3 col-md-4 col-12">
+      <img class="img-fluid mb-3" src="{% static 'img/toppicks/2.png' %}" alt="">
+   <h5 class="p-name">
+    Denver Imperial Perfume - 100ml</h5>
+    <h4 class="p-price">$72.00</h4>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="product text-center col-lg-3 col-md-4 col-12">
+    <img class="img-fluid mb-3" src="{% static 'img/toppicks/3.png' %}" alt="">
+  <h5 class="p-name"> Cristiano Ronaldo CR7 - Game On Men EDT Spray</h5>
+  <h4 class="p-price">$52.00</h4>
+  <button class="buy-btn">Buy Now</button>
+</div>
+<div class="product text-center col-lg-3 col-md-4 col-12">
+  <img class="img-fluid mb-3" src="{% static 'img/toppicks/4.png' %}" alt="">
+<h5 class="p-name">
+Versace Eros Eau De Toilette 100Ml </h5>
+<h4 class="p-price">$100.00</h4>
+<button class="buy-btn">Buy Now</button>
+</div>
+  </section>
+</section>
+{% endblock content%}
+
+
+
+
+
